@@ -43,6 +43,7 @@ a
     font-family: sans-serif;
     font-weight: bold;
     color: white;
+    font-size: 1.5vw;
 }
 
 ul
@@ -59,7 +60,7 @@ nav
 
     max-width: 1120PX;
     margin: auto;
-    padding: 24px 160px;
+    padding: 24px 20px;
 }
 
 nav > span
@@ -110,7 +111,7 @@ main > div
     gap: 96px;
 
     max-width: 1120px;
-    height: 50vh;
+    height: 40vw;
     padding: 0px 32px;
     margin: auto;
 
@@ -126,7 +127,8 @@ main > div
 
 .hero-img
 {
-    max-width: 45%;
+    max-width: 15%;
+    min-width: 300px;
     column-count: 4;
     column-gap: 16px;
 }
@@ -146,12 +148,16 @@ main > div
 
 h1
 {
-    font: 800 56px var(--font3);
+    font-family: var(--font3);
+    font-weight: 800;
+    font-size: 5vw;
 }
 
 .hero h2
 {
-    font: 400 20px sans-serif;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 2vw
 }
 
 button
