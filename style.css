@@ -112,6 +112,8 @@ main > div
 
     max-width: 1120px;
     height: 40vw;
+    max-height: 500px;
+    min-height: 250px;
     padding: 0px 32px;
     margin: auto;
 
@@ -127,8 +129,8 @@ main > div
 
 .hero-img
 {
-    max-width: 15%;
-    min-width: 300px;
+    width: 100vw;
+    min-width: 350px;
     column-count: 4;
     column-gap: 16px;
 }
@@ -141,7 +143,8 @@ main > div
 
 .spans
 {
-    font: normal 16px var(--font2);
+    font-family: var(--font2);
+    font-size: 1.5vw;
     text-transform: uppercase;
     color: var(--cor3);
 }
