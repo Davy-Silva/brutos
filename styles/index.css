@@ -181,7 +181,7 @@ button
     width: 70px;
     height: 70px;
     border-radius: 10px;
-    background: white url(assets/button.png) center center no-repeat;
+    background: white url(../assets/button.png) center center no-repeat;
     background-size: 30px;
     border: none;
 }
