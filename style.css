@@ -310,6 +310,8 @@ aside
     { font-size: 46px; }
     .hero h2
     { font-size: 18px; }
+    .hero
+    { gap: 70px;}
 
     .spans
     { font-size: 16px; }
@@ -319,6 +321,8 @@ aside
 {
     .hero-img
     { column-count: 3;}
+    .hero
+    { gap: 50px;}
 }
 
 @media (max-width: 670px)
@@ -366,5 +370,37 @@ aside
     { font-size: 28px; }
 
     .hero img
-    { min-width: 100px;}
+    { min-width: 100px; }
+    .hero
+    { gap: 40px; }
+}
+
+@media (max-width: 490px)
+{
+    nav > span
+    { font-size: 20px; }
+    nav > a
+    { font-size: 12px; }
+    a
+    { font-size: 10px;}
+
+    h1
+    { font-size: 32px; }
+    .hero h2
+    { font-size: 12px; }
+
+    .spans
+    { font-size: 12px; }
+
+    #cortes p
+    { font-size: 14px; }
+    #cortes h2
+    { font-size: 24px; }
+
+    #container
+    { font-size: 14px; }
+    .card h3
+    { font-size: 20px; }
+    .card header p
+    { font-size: 12px; }
 }
