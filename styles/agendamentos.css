@@ -142,3 +142,13 @@ iframe
     a
     { font-size: 10px;}
 }
+
+@media (max-width: 420px)
+{
+    nav > span
+    { font-size: 14px; }
+    nav > a
+    { font-size: 9px; }
+    a
+    { font-size: 8px;}
+}
